@@ -83,7 +83,7 @@ WRF outputs are provided in NetCDF (`.nc`) format for three nested domains (D01=
 | `data_{domain}_V.nc`      | 45.63    | 44.85    | 44.78    | V-wind component (staggered 4D)                                                         |
 | `data_{domain}_W.nc`      | 54.91    | 54.41    | 54.31    | W-vertical velocity (staggered 4D)                                                      |
 | **Total size (per domain)** | **295.60** | **283.91** | **277.27** |                                                                                          |
-| **Grand total size**      | **856.78 GB** |           
+| **Grand total size**      | |**856.78 GB** |           
 ---
 
 ### 2. SAR/CMOD5 wind retrievals
