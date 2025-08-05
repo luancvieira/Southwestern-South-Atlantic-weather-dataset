@@ -1,4 +1,4 @@
-# README
+# A multi-resolution Southwestern South Atlantic weather dataset
 
 ![Study Area](figures/study_area.png)
 
