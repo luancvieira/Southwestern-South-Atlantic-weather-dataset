@@ -107,8 +107,8 @@ All SAR-derived wind fields are consolidated into two NetCDF files, covering **1
 
 | File                      | Size  | Description                                  |
 |:-------------------------:|:-----:|:---------------------------------------------|
-| `data_SAR_500m.nc`        | 10 MB | SAR/CMOD5 wind fields at **500 m** resolution |
-| `data_SAR_1000m.nc`       | 10 MB | SAR/CMOD5 wind fields at **1 km** resolution  |
+| `data_SAR_500m.nc`        | 7.47 MB | SAR/CMOD5 wind fields at **500 m** resolution |
+| `data_SAR_1000m.nc`       | 29.83 MB | SAR/CMOD5 wind fields at **1 km** resolution  |
 
 ---
 
