@@ -9,6 +9,8 @@ This repository contains a **multi‐resolution Southwestern South Atlantic (SWS
 - **Wind retrievals** from Sentinel-1A/B SAR processed with the CMOD5 geophysical model (500 m & 1 km resolution)
 - **In situ** Itajaí meteo-oceanographic buoy observations
 
+It’s a comprehensive, high-frequency, multi-resolution weather archive for the undersampled Southwestern South Atlantic. The region has significant renewable-energy potential. Wind retrievals have been validated across the models and against in situ measurements from the Itajaí buoy.
+
 The full dataset spans **February 2017** to **November 2018**.
 
 ---
@@ -17,7 +19,7 @@ The full dataset spans **February 2017** to **November 2018**.
 
 The dataset is publicly available at:
 
-> **URL:** https://www.page.com
+> **URL:** (not available yet)
 
 It is organized into three main components:
 
