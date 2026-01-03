@@ -19,7 +19,7 @@ The full dataset spans **February 2017** to **November 2018**.
 
 The dataset is publicly available at:
 
-> **URL:** (not available yet)
+> **URL:** https://dataverse.harvard.edu/dataset.xhtml;jsessionid=4f2e810f68ca059df348217bedb2?persistentId=doi%3A10.7910%2FDVN%2FOUEZ0H
 
 It is organized into three main components:
 
