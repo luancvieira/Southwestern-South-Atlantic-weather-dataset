@@ -33,14 +33,17 @@ It is organized into three main components:
 
 WRF outputs are provided in NetCDF (`.nc`) format for three nested domains (D01=9 km, D02=3 km, D03=1 km), covering **06:30 UTC 06 Feb 2017** to **06:00 UTC 18 Nov 2018** at 30-minute intervals.
 
-#### Grid dimensions
+#### Grid dimensions and spatial extent
 
-| Resolution | WRF grid (mass points) | SAR/CMOD5 grid |
-|:----------:|:----------------------:|:--------------:|
-| **500 m**  | –                      | 164 × 114      |
-| **1 km**   | 354 × 360              | 82 × 57        |
-| **3 km**   | 354 × 360              | –              |
-| **9 km**   | 354 × 360              | –              |
+| Resolution | Grid size (south_north × west_east) | lat_min | lat_max | lon_min | lon_max |
+|:----------:|:-----------------------------------:|--------:|--------:|--------:|--------:|
+| **WRF D01 (9 km)** | 354 × 360 | -40.95 | -11.39 | -64.02 | -29.96 |
+| **WRF D02 (3 km)** | 354 × 360 | -31.99 | -22.06 | -52.67 | -41.31 |
+| **WRF D03 (1 km)** | 354 × 360 | -28.78 | -25.47 | -48.88 | -45.10 |
+| **SAR/CMOD5 (1 km)** | 82 × 57 | -27.42 | -26.66 | -47.27 | -46.68 |
+| **SAR/CMOD5 (500 m)** | 164 × 114 | -27.42 | -26.66 | -47.27 | -46.68 |
+
+Latitude and longitude limits correspond to the extremes of the **XLAT** and **XLONG** variables for each grid.
 
 #### WRF Variables
 
