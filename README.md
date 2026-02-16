@@ -135,5 +135,6 @@ Tabular CSV file (`itajai_buoy.csv`) with hourly in situ observations at ~4 m he
 
 ## Usage Notes
 
-![Usage examples](usage_examples.ipynb)
+📓 Usage examples (loading model outputs, computing heights, generating figures, obtain values at a grid-point closest to input location, etc) are available in this notebook:  
+[usage_examples.ipynb](usage_examples.ipynb)
 
