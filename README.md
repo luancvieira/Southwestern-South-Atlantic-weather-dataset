@@ -15,6 +15,13 @@ The full dataset spans **February 2017** to **November 2018**.
 
 ---
 
+## Usage Notes
+
+📓 Usage examples (loading model outputs, computing heights, generating figures, obtain values at a grid-point closest to input location, etc) are available in this notebook:  
+[usage_examples.ipynb](usage_examples.ipynb)
+
+---
+
 ## Data Records
 
 The dataset is publicly available at:
@@ -132,9 +139,4 @@ Tabular CSV file (`itajai_buoy.csv`) with hourly in situ observations at ~4 m he
 [SAR/CMOD5 Wind Speed Examples](figures/sar_wind_fields.png)
 
 ---
-
-## Usage Notes
-
-📓 Usage examples (loading model outputs, computing heights, generating figures, obtain values at a grid-point closest to input location, etc) are available in this notebook:  
-[usage_examples.ipynb](usage_examples.ipynb)
 
