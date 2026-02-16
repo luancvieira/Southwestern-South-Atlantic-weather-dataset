@@ -76,20 +76,6 @@ Latitude and longitude limits correspond to the extremes of the **XLAT** and **X
 | **V**         | V-wind component on staggered grid (m s⁻¹)                                                  | 4D (Time, bottom_top_stag, south_north_stag, west_east) |
 | **W**         | Vertical velocity on staggered grid (m s⁻¹)                                                 | 4D (Time, bottom_top_stag, south_north, west_east)  |
 
-#### NetCDF files summary
-
-| File name                 | D01 (GB) | D02 (GB) | D03 (GB) | Contents                                                                                 |
-|:-------------------------:|:--------:|:--------:|:--------:|:----------------------------------------------------------------------------------------|
-| `data_{domain}_3D.nc`     | 52.57    | 47.97    | 43.20    | 2D & 3D surface fields (T2, TH2, SST, PSFC, RAINC, RAINNC, U10, V10, PB, PHB, LU_INDEX, HGT, LANDMASK, ZNU, ZNW) |
-| `data_{domain}_T.nc`      | 30.89    | 29.19    | 29.01    | Perturbation potential temperature (4D)                                                 |
-| `data_{domain}_P.nc`      | 25.89    | 24.52    | 24.12    | Perturbation pressure (4D)                                                              |
-| `data_{domain}_PH.nc`     | 39.81    | 37.68    | 36.98    | Perturbation geopotential (staggered 4D)                                               |
-| `data_{domain}_U.nc`      | 45.90    | 45.29    | 44.87    | U-wind component (staggered 4D)                                                         |
-| `data_{domain}_V.nc`      | 45.63    | 44.85    | 44.78    | V-wind component (staggered 4D)                                                         |
-| `data_{domain}_W.nc`      | 54.91    | 54.41    | 54.31    | W-vertical velocity (staggered 4D)                                                      |
-| **Total size (per domain)** | **295.60** | **283.91** | **277.27** |                                                                                          |
-| **Grand total size**      | |**856.78 GB** |           
----
 
 ### 2. SAR/CMOD5 wind retrievals
 
@@ -112,8 +98,8 @@ All SAR-derived wind fields are consolidated into two NetCDF files, covering **1
 
 | File                      | Size  | Description                                  |
 |:-------------------------:|:-----:|:---------------------------------------------|
-| `data_SAR_500m.nc`        | 7.47 MB | SAR/CMOD5 wind fields at **500 m** resolution |
-| `data_SAR_1000m.nc`       | 29.83 MB | SAR/CMOD5 wind fields at **1 km** resolution  |
+| `data_SAR_500m.nc`        | 29.83 MB | SAR/CMOD5 wind fields at **500 m** resolution |
+| `data_SAR_1000m.nc`       | 7.47 MB | SAR/CMOD5 wind fields at **1 km** resolution  |
 
 ---
 
