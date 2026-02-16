@@ -135,10 +135,5 @@ Tabular CSV file (`itajai_buoy.csv`) with hourly in situ observations at ~4 m he
 
 ## Usage Notes
 
-To load and inspect any of the NetCDF files in Python:
+![SAR/CMOD5 Wind Speed Examples](usage_examples.ipynb)
 
-```python
-import xarray as xr
-
-ds = xr.open_dataset("data_D03_3D.nc")
-print(ds)
