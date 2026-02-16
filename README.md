@@ -135,5 +135,5 @@ Tabular CSV file (`itajai_buoy.csv`) with hourly in situ observations at ~4 m he
 
 ## Usage Notes
 
-![SAR/CMOD5 Wind Speed Examples](usage_examples.ipynb)
+![Usage examples](usage_examples.ipynb)
 
