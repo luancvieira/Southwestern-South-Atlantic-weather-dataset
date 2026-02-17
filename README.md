@@ -17,7 +17,7 @@ The full dataset spans **February 2017** to **November 2018**.
 
 ## Usage Notes
 
-📓 Usage examples (loading model outputs, computing heights, generating figures, obtain values at a grid-point closest to input location, etc) are available here: [usage_examples.html](usage_examples.html)
+📓 Usage examples (loading model outputs, computing heights, generating figures, obtain values at a grid-point closest to input location, etc) are available here: [usage_examples.pdf](usage_examples.pdf)
 
 ---
 
