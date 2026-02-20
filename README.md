@@ -82,6 +82,16 @@ Latitude and longitude limits correspond to the extremes of the **XLAT** and **X
 | **V**         | V-wind component on staggered grid (m s⁻¹)                                                  | 4D (Time, bottom_top_stag, south_north_stag, west_east) |
 | **W**         | Vertical velocity on staggered grid (m s⁻¹)                                                 | 4D (Time, bottom_top_stag, south_north, west_east)  |
 
+#### Air Density Supplemental Data
+Due to storage restrictions on the water vapor mixing ratio (**QVAPOR**), full 4D air density is not included in the main dataset. We provide temporal mean and standard deviation files for each domain instead:
+
+| File Name | Size | Description |
+| :--- | :--- | :--- |
+| `air_density_aggregations_D01.nc` | 4.89 MB | Temporal mean and std. dev. of air density for WRF D01 |
+| `air_density_aggregations_D02.nc` | 4.89 MB | Temporal mean and std. dev. of air density for WRF D02 |
+| `air_density_aggregations_D03.nc` | 4.89 MB | Temporal mean and std. dev. of air density for WRF D03 |
+
+---
 
 ### 2. SAR/CMOD5 wind retrievals
 
